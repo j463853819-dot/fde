@@ -1,0 +1,8 @@
+.DS_Store
+learning-notes.md
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
