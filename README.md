@@ -1,34 +1,5 @@
 # FDE Growth Plan Skill
 
-## English
-
-FDE Growth Plan is a learning skill for Forward Deployed Engineer (FDE) development. It helps users learn FDE systematically through configurable learning cycles, daily study prompts, hands-on tasks, learning notes, project practice, and interview preparation.
-
-The skill is designed for people who want to understand or transition into roles such as:
-
-- Forward Deployed Engineer
-- Forward Deployed AI Engineer
-- AI Solutions Engineer
-- AI product or delivery roles with customer-facing implementation responsibility
-
-It covers FDE role definition, career positioning, configurable learning cycles, Day 1 onboarding and capability assessment, Prompt/RAG/Agent/Workflow/MCP/Evals foundations, AI product and customer scenario analysis, demo-to-production thinking, deployment, monitoring, cost, safety, production readiness, customer requirement discovery, ROI reasoning, portfolio building, and interview preparation.
-
-To use it, install or copy this folder into your skills directory, then ask:
-
-```text
-今天的FDE学习
-```
-
-On the first day, the skill starts with onboarding and asks for your current background, learning goal, learning cycle, daily study time, engineering and AI foundations, preferred industry scenarios, output preferences, and capability self-assessment. After onboarding, each daily study session includes a topic, explanation, case or source reference, task, acceptance criteria, and follow-up thinking prompts.
-
-The script `scripts/update-learning-doc.py` can create or update a local `learning-notes.md` file. This file is intentionally ignored by Git because it contains personal learning history.
-
-```bash
-python3 scripts/update-learning-doc.py --json-file daily.json
-```
-
-Optional FDE knowledge base integration: this skill works without any external personal knowledge base. If you already have FDE-related notes, articles, case studies, job descriptions, learning materials, or customer deployment playbooks, you can mention the path, title, or summary during onboarding. The skill can use that material as background context for explanations, examples, practice tasks, and personalized learning plans.
-
 ## 中文
 
 FDE Growth Plan 是一个面向 FDE（Forward Deployed Engineer，前沿部署工程师）成长的学习 skill。它通过可配置学习周期、每日学习推送、动手任务、学习笔记、项目练习和面试准备，帮助用户系统学习 FDE 所需的复合能力。
